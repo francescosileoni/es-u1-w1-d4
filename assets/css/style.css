@@ -1,0 +1,82 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+/* BODY */
+body {
+  margin: 0;
+}
+#background {
+  /* background-image: url(https://placedog.net/500); */
+  background-image: url(/assets/img/sfondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* HEADER */
+header {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+header span {
+  margin-top: 1em;
+}
+#logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(9, 9, 121);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+header img {
+  width: 48%;
+}
+
+/* MAIN */
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+#box-article {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 1em;
+  padding-right: 1em;
+
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+/* TABELLE */
+#table {
+  width: 100%;
+}
+#customers tr:nth-child(even) {
+  background-color: #afabab;
+}
+
+#table th {
+  background-color: rgb(91, 91, 216);
+  color: white;
+}
+/* FORM */
+button {
+  color: white;
+  background-color: rgb(98, 98, 226);
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
